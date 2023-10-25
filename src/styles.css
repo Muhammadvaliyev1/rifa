@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shad {
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+@layer {
+    body {
+        @apply bg-brend-darkmode dark:bg-brend-gray
+    }
+}
+.spa {
+    @apply text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5
+}
+
+.left-1-6 { 
+    left: 10%;
+}
+

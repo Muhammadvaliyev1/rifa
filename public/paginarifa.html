@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="/src/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/rifa digital 1.png">
+    <title>RIFA DIGITAL</title>
+</head>
+<body class="bg-brend-darkmode dark:bg-brend-gray h-screen">
+    <header class="shad px-4 bg-brend-darkmode dark:bg-brend-black">
+        <div class="max-w-[806px] flex justify-between items-center mx-auto py-5 w-full">
+            <div>
+                <img class="block dark:hidden" src="./img/rifa digital 1.png">
+                <img class="hidden dark:block" src="./img/logo-dark.png">
+            </div>
+            <div class="flex justify-between items-center border border-border-wheat dark:border-border-gray bg-brend-darkmode dark:bg-brend-black rounded-2xl gap-x-3 py-3 pl-5 sm:pr-32 pr-1">
+                <div>
+                    <img src="./icons/search.svg">
+                </div>
+                <input class="outline-none dark:bg-brend-black bg-brend-darkmode max-w-[122px] placeholder:dark:bg-brend-black placeholder:bg-brend-darkmode" type="search" placeholder="Buscar bilhetes">
+            </div>
+        </div>
+    </header>
+
+    <main class="w-full h-full">
+        <section class="sm:pt-3 pt-0">
+            <div class="max-w-[808px] relative mx-auto flex">
+                <div>
+                    <img class="sm:rounded-xl rounded-none min-h-[180px]" src="./img/Rectangle 6bg.png">
+                </div>
+                <div class="absolute max-w-[350px] w-full sm:bottom-5 sm:left-6 -bottom-6 left-1/2  sm:translate-x-0 -translate-x-1/2 flex justify-between items-center gap-x-3 rounded-xl bg-white dark:bg-brend-black px-6 py-3.5">
+                    <div>
+                        <img src="./icons/coin.svg">
+                    </div>
+                    <h2 class="font-inter text-sm font-normal text-brand-gray dark:text-brand-bob">Participe por apenas</h2>
+                    <h2 class="font-inter text-xl font-medium text-brand-black dark:text-brand-darkmode ml-1">R$1,25</h2>
+                </div>
+            </div>
+        </section>
+        <section class="sm:pt-4 pt-10 px-5">
+            <div class="max-w-[808px] mx-auto flex flex-col">
+                <div class="flex max-w-[242px] justify-between gap-x-2 items-center">
+                    <div class="flex justify-between items-center bg-brend-green rounded-3.5xl px-3 py-1.5">
+                        <div>
+                            <img src="./icons/fire-icon.svg">
+                        </div>
+                        <h2 class="font-inter text-s font-medium text-black">Em andamento</h2>
+                    </div>
+                    <div class="flex justify-between items-center bg-brend-green dark:bg-brend-space_green rounded-3.5xl px-3 py-1.5">
+                        <div>
+                            <img src="./icons/image 9luck.svg">
+                        </div>
+                        <h2 class="font-inter text-s font-medium text-black">Em andamento</h2>
+                    </div>
+                </div>
+                <h2 class="font-inter text-3xl font-bold text-brand-black dark:text-brand-darkmode mt-4">
+                    R$50.000,00 no pix  
+                </h2>
+                <div class="w-full mt-7 h-[1px] bg-brend-wheat dark:bg-brend-space_gray"></div>
+                <div class="mt-5 max-w-[174px] flex justify-between items-center">
+                    <div class="p-0.5 bg-brend-space_green rounded-full">
+                        <img src="./icons/RD.svg">
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <h2 class="font-inter text-s font-medium text-brand-black dark:text-brand-darkmode">Organizado por: </h2>
+                        <h2 class="font-inter text-s font-bold text-brand-black dark:text-brand-darkmode">Rifa Digital</h2>
+                    </div>
+                    <div>
+                        <img src="./icons/ic_round-check-circle.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-7 px-5">
+            <div class="max-w-[808px] mx-auto flex flex-col rounded-2.5xl mt-4 bg-white dark:bg-brend-black pt-5 pb-7">
+                <div class="max-w-[527pxpx] gap-x-3.5 flex flex-col mx-auto justify-between items-center px-5">
+                    <div class="max-w-[413px] mx-auto gap-x-3.5 flex justify-between items-center">
+                        <div>
+                            <img src="./icons/heroicons_ticket.svg">
+                        </div>
+                        <h2 class="font-inter sm:text-2xl text-sm font-bold text-brand-black dark:text-brand-darkmode">Selecione a quantidade de cotas</h2>
+                    </div>
+                    <div class="flex sm:flex-row flex-col items-center justify-between mt-5 gap-x-3">
+                        <div class="flex items-center justify-between gap-x-3">
+                                <h2 class="font-inter text-xs text-brand-space_gray dark:text-brand-wheat">Mostrar:</h2>
+                                <div class="flex items-center justify-between gap-x-1">
+                                    <input type="checkbox" class="accent-black dark:accent-brend-space_gray bg-white">
+                                    <label for=""><h2 class="font-inter text-xs text-brand-gray dark:text-brand-darkmode">Todos</h2></label>
+                                </div>
+                                <div class="flex items-center justify-between gap-x-1">
+                                    <input type="checkbox" class="accent-brend-gray dark:accent-white bg-white">
+                                    <label for=""><h2 class="font-inter text-xs text-brand-gray_text dark:text-brand-darkmode">Disponíveis</h2></label>
+                                </div>
+                        </div>
+                        <div class="flex items-center justify-between sm:mt-0 mt-3 gap-x-3">
+                                <div class="flex items-center justify-between gap-x-1">
+                                    <input type="checkbox" class="accent-brend-orange bg-white">
+                                    <label for=""><h2 class="font-inter text-xs text-[#DF7940]">Reservados</h2></label>
+                                </div>
+                                <div class="flex items-center justify-between gap-x-1">
+                                    <input type="checkbox" class="accent-brend-green">
+                                    <label for=""><h2 class="font-inter text-xs text-[#53AF89]">Comprados</h2></label>
+                                </div>
+                                <div class="flex items-center justify-between gap-x-1">
+                                    <input type="checkbox" class="accent-brend-blue bg-white">
+                                    <label for=""><h2 class="font-inter text-xs text-[#2789D0]">Meus Números</h2></label>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full mt-8 grid sm:grid-cols-12 grid-cols-6 gap-y-1 gap-x-1 px-5">
+                    <span class="col-span-1 font-inter text-xs text-white rounded-xl sm:bg-brend-space_blue bg-brend-space_green text-center py-2.5">49580</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 text-xs text-white rounded-xl bg-brend-space_blue text-center py-2.5">49580</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <!-- div -->
+                    <span class="col-span-1 text-xs text-white rounded-xl bg-brend-orange text-center py-2.5">49580</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-white rounded-xl bg-brend-orange text-center py-2.5">49580</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <!-- div -->
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">49580</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <!-- div -->
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <!-- div -->
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-white rounded-xl bg-brend-spaced_green text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-white rounded-xl bg-brend-spaced_green text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <!-- div -->
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-white rounded-xl bg-brend-space_blue text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-white rounded-xl bg-brend-space_blue text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <!-- div -->
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-white rounded-xl bg-brend-orange text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-white rounded-xl bg-brend-orange text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <!-- div -->
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <!-- div -->
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <!-- div -->
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-white rounded-xl bg-brend-spaced_green text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-white rounded-xl bg-brend-spaced_green text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <!-- div -->
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-white rounded-xl bg-brend-space_blue text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-white rounded-xl bg-brend-space_blue text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <!-- div -->
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-white rounded-xl bg-brend-orange text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-white rounded-xl bg-brend-orange text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <!-- div -->
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <!-- div -->
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">49580</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">03494</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">09803</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                    <span class="col-span-1 sm:inline-block hidden text-xs text-brand-gray dark:text-brand-gray_text border border-border-space_gray dark:border-border-gray rounded-xl text-center py-2.5">35678</span>
+                </div>
+                <div class="px-5">
+                    <div class="w-full h-1.5 rounded-3.5xl bg-brend-darkmode dark:bg-brend-space_black mt-4">
+                        <div class="w-16 h-1.5 bg-brend-space_green rounded-3.5xl"></div>
+                    </div>
+                </div>
+                <h2 class="font-inter text-s text-black dark:text-brand-wheat mt-2 px-5">
+                    120/100000
+                </h2>
+                <div class="w-full h-[1px] sm:block hidden bg-brend-darkmode dark:bg-brend-space_black sm:mt-8 mt-0"></div>
+                <div class="max-w-[808px] w-full sm:flex hidden mx-auto justify-center items-center px-5 sm:mt-4 mt-0">
+                    <button type="button" class="w-1/2 flex items-center justify-center py-5 bg-brend-space_black rounded-l-2.5xl"><span class="text-white font-inter font-bold">R$9,00</span></button>
+                    <button type="button" class="w-1/2 flex items-center justify-center py-5 bg-brend-space_green rounded-r-2.5xl"><span class="text-white dark:text-brand-black font-inter font-bold">Reservar bilhetes</span></button>
+                </div> 
+            </div>
+            <!-- <button type="button" class="w-full flex items-center justify-center py-5 bg-brend-space_green rounded-2.5xl mt-9"><span class="text-white dark:text-brand-black font-inter font-bold">Reservar bilhetes</span></button> -->
+        </section>
+        <section class="px-6 sm:hidden block bg-white dark:bg-brend-black mt-3 py-4">
+            <div class="max-w-[808px] w-full flex sm:hidden mx-auto justify-center items-center">
+                <button type="button" class="w-1/2 flex items-center justify-center py-5 bg-brend-space_black rounded-l-2.5xl"><span class="text-white font-inter font-bold">R$9,00</span></button>
+                <button type="button" class="w-1/2 flex items-center justify-center py-5 bg-brend-space_green rounded-r-2.5xl"><span class="text-white dark:text-brand-black font-inter font-bold">Reservar bilhetes</span></button>
+            </div> 
+        </section>
+        <section class="mt-5 px-5">
+            <div class="max-w-[808px] grid md:grid-cols-4 grid-cols-2 gap-x-5 gap-y-3.5 mx-auto">
+                <div class="col-span-2 bg-white dark:bg-brend-black rounded-2.5xl flex flex-col items-start justify-center py-3 sm:pl-5 pl-4 sm:pr-10 pr-4">
+                    <h2 class="font-inter text-s text-brand-black dark:text-brand-wheat">Organizador</h2>
+                    <div class="flex items-center justify-start mt-3">
+                        <div class="p-0.5 w-16 h-16 mr-3 mt- bg-brend-space_green rounded-full">
+                            <img class="w-full h-full" src="./icons/RD.svg">
+                        </div>
+                        <div class="flex flex-col pb-2">
+                            <div class="flex max-w-[100px] w-full justify-between items-center">
+                                <h2 class="font-inter text-sm font-bold text-brand-black dark:text-brand-darkmode">Rifa Digital</h2>
+                                <div class="w-3 h-3 ml-1.5">
+                                    <img class="w-full h-full" src="./icons/ic_round-check-circle.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="flex justify-between items-center mt-2 gap-x-4">
+                                <div class="flex justify-between items-center gap-x-1">
+                                    <div>
+                                        <img src="./icons/ic_baseline-whatsapp.svg">
+                                    </div>
+                                    <h2 class="font-inter text-sm text-brand-gray dark:text-brand-gray_text dark:text-brand-bob">Suporte</h2>
+                                </div>
+                                <div class="flex justify-between items-center gap-x-1">
+                                    <div>
+                                        <img src="./icons/ic_baseline-whatsapp.svg">
+                                    </div>
+                                    <h2 class="font-inter text-sm text-brand-gray dark:text-brand-bob">Suporte</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex self-end ml-8 mb-2.5">
+                            <a href="#" class="p-1 bg-brend-pink rounded-full">
+                                <img src="./icons/mdi_instagram.svg">
+                            </a>
+                            <a href="#" class="p-1 bg-brend-blue rounded-full ml-2">
+                                <img src="./icons/iconoir_telegram.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-1 gap-y-5 bg-white dark:bg-brend-black rounded-2.5xl flex flex-col items-start justify-center py-4 sm:pl-6 pl-4 pr-4">
+                    <h2 class="font-inter text-s text-brand-black dark:text-brand-wheat">Formas de pagamento</h2>
+                    <div class="flex justify-between items-center sm:gap-x-5 gap-x-3">
+                        <div>
+                            <img src="./icons/ic_baseline-pix.svg">
+                        </div>
+                        <h3 class="font-inter text-sm text-brand-gray dark:text-brand-bob">Pix</h3>
+                    </div>
+                </div>
+                <div class="col-span-1 gap-y-5 bg-white dark:bg-brend-black rounded-2.5xl flex flex-col items-start justify-center py-4 sm:pl-6 pl-4 pr-4">
+                    <h2 class="font-inter text-s text-brand-black dark:text-brand-wheat">Sorteio</h2>
+                    <div class="flex justify-between items-center sm:gap-x-5 gap-x-3">
+                        <div>
+                            <img src="./icons/image 8.svg">
+                        </div>
+                        <h3 class="font-inter text-sm text-brand-gray dark:text-brand-bob">Loteria Federal</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-7">
+            <div class="max-w-[220px] flex flex-col items-center justify-between gap-y-1.5 mx-auto">
+                <div class="flex justify-between gap-x-1.5 items-center">
+                    <h3 class="font-inter text-s text-brand-black dark:text-brand-wheat">Feito com</h3>
+                    <h3>💚</h3>
+                    <h4 class="font-inter text-s text-brand-black dark:text-brand-wheat">por</h4>
+                    <a href="/">
+                        <img class="block dark:hidden" src="./img/rifa digital 1.png">
+                        <img class="hidden dark:block" src="./img/logo-dark.png">
+                    </a>
+                </div>
+                <a href="#" class="font-inter text-s text-brand-black dark:text-brand-wheat underline">Termos de Uso</a>
+            </div>
+        </section>
+        <section>
+            <div class="max-w-[806px] w-full mx-auto m pb-8">
+                <button type="button" class="dark:bg-brend-space_gray fixed bottom-5 bg-white p-2.5 rounded-full" id="icon">
+                    <div><img src="./icons/moon.svg" class="dark:hidden block"></div>
+                    <div><img src="./icons/sun.svg" class="dark:block hidden"></div>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <script  src="./app.js"></script>
+</body>
+</html>
